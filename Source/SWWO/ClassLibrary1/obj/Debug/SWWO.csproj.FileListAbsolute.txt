@@ -1,0 +1,12 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\SWWO\ClassLibrary1\obj\Debug\SWWO.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\SWWO\ClassLibrary1\obj\Debug\SWWO.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\SWWO\ClassLibrary1\bin\Debug\WeatherOverlay.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\SWWO\ClassLibrary1\bin\Debug\WeatherOverlay.pdb
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\SWWO\ClassLibrary1\obj\Debug\WeatherOverlay.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\SWWO\ClassLibrary1\obj\Debug\WeatherOverlay.pdb
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Star Wars - Biomes Addon\Source\SWWO\ClassLibrary1\obj\Debug\SWWO.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Star Wars - Biomes Addon\Source\SWWO\ClassLibrary1\obj\Debug\WeatherOverlay.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Star Wars - Biomes Addon\Source\SWWO\ClassLibrary1\obj\Debug\WeatherOverlay.pdb
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Star Wars - Biomes Addon\Source\SWWO\ClassLibrary1\bin\Debug\WeatherOverlay.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Star Wars - Biomes Addon\Source\SWWO\ClassLibrary1\bin\Debug\WeatherOverlay.pdb
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Star Wars - Biomes Addon\Source\SWWO\ClassLibrary1\obj\Debug\SWWO.csprojAssemblyReference.cache
