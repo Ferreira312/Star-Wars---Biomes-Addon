@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Star Wars - Biomes Addon</name>
+	<author>FantasyFan, Lumi</author>
+  <supportedVersions>
+    <li>1.1</li>
+	<li>1.2</li>
+  </supportedVersions>
+  <packageId>lumi.swbiomesaddon</packageId>
+	<description>
+Have you ever wanted to live on the star wars planets. Now you can.
+
+This mod add biomes as star wars planets:
+-Endor
+-Dagobah
+-Kashyyyk
+-Naboo
+-Tatooine
+-Geonosis
+-Mustafar
+-Dathomir	
+-Hoth		 
+-Kamin		 
+-Crait		 
+-Bespin		 
+-Felucia	
+-Scarif		
+-Yavin IV 	
+
+
+
+
+Lava texture by Hey my team rules! (Advanced Biomes).
+
+
+If you find things unbalanced, please make suggestions for improvement.
+	</description>
+</ModMetaData>

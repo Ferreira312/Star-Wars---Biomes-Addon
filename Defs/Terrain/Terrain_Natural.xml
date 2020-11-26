@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <TerrainDef ParentName="NaturalTerrainBase">
+        <defName>GeonosisSand</defName>
+        <label>geonosis sand</label>
+        <texturePath>Terrain/GeonosisSand</texturePath>
+        <edgeType>FadeRough</edgeType>
+        <renderPrecedence>350</renderPrecedence>
+        <pathCost>4</pathCost>
+        <statBases>
+            <Beauty>-1</Beauty>
+            <Cleanliness>-1</Cleanliness>
+        </statBases>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+            <li>Diggable</li>
+        </affordances>
+        <generatedFilth>Filth_Sand</generatedFilth>
+        <fertility>0.10</fertility>
+        <takeFootprints>True</takeFootprints>
+        <tools>
+            <li>
+                <label>sand</label>
+                <capacities>
+                    <li>KickMaterialInEyes</li>
+                </capacities>
+                <hediff>SandInEyes</hediff>
+                <cooldownTime>1.5</cooldownTime>
+            </li>
+        </tools>
+    </TerrainDef>
+	
+    <TerrainDef>
+        <defName>MustafarRock</defName>
+        <label>mustafar rock</label>
+        <edgeType>FadeRough</edgeType>
+        <renderPrecedence>350</renderPrecedence>
+        <pathCost>4</pathCost>
+        <texturePath>Terrain/MustafarSoil</texturePath>
+        <statBases>
+            <Beauty>-1</Beauty>
+            <Cleanliness>-1</Cleanliness>
+        </statBases>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+            <li>Diggable</li>
+        </affordances>
+        <fertility>0</fertility>
+    </TerrainDef>
+	
+    <TerrainDef ParentName="WaterShallowBase">
+        <defName>MustafarLava</defName>
+        <label>lava</label>
+        <texturePath>Terrain/MustafarLava</texturePath>
+        <waterDepthShader>Map/WaterDepth</waterDepthShader>
+        <renderPrecedence>394</renderPrecedence>
+        <driesTo>MustafarRock</driesTo>
+    </TerrainDef>
+	
+    <TerrainDef ParentName="WaterShallowBase">
+        <defName>ScarifWater</defName>
+        <label>shallow ocean water</label>
+        <texturePath>Terrain/ScarifWaterRamp</texturePath>
+        <waterDepthShader>Map/WaterDepth</waterDepthShader>
+        <renderPrecedence>396</renderPrecedence>
+        <driesTo>Sand</driesTo>
+    </TerrainDef>
+	
+    <TerrainDef ParentName="WaterShallowBase">
+        <defName>WaterOceanKamino</defName>
+        <label>deep ocean water</label>
+        <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+        <waterDepthShader>Map/WaterDepth</waterDepthShader>
+        <renderPrecedence>396</renderPrecedence>
+        <driesTo>Gravel</driesTo>
+    </TerrainDef>
+	
+    <TerrainDef>
+        <defName>CraitStone</defName>
+        <label>Crait stone</label>
+        <edgeType>FadeRough</edgeType>
+        <renderPrecedence>350</renderPrecedence>
+        <pathCost>4</pathCost>
+        <texturePath>Terrain/CraitStone</texturePath>
+        <statBases>
+            <Beauty>-1</Beauty>
+            <Cleanliness>-1</Cleanliness>
+        </statBases>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+            <li>Diggable</li>
+        </affordances>
+        <fertility>0</fertility>
+    </TerrainDef>
+	
+    <TerrainDef ParentName="NaturalTerrainBase">
+        <defName>CraitSalt</defName>
+        <label>Crait salt</label>
+        <edgeType>FadeRough</edgeType>
+        <renderPrecedence>350</renderPrecedence>
+        <pathCost>4</pathCost>
+        <texturePath>Terrain/CraitSalt</texturePath>
+        <statBases>
+            <Beauty>-1</Beauty>
+            <Cleanliness>-1</Cleanliness>
+        </statBases>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+            <li>Diggable</li>
+        </affordances>
+        <fertility>0</fertility>
+    </TerrainDef>
+	
+	
+    <TerrainDef ParentName="NaturalTerrainBase">
+        <defName>BespinGas</defName>
+        <label>gas</label>
+        <texturePath>Terrain/BespinGas</texturePath>
+        <renderPrecedence>394</renderPrecedence>
+        <driesTo>BespinGas</driesTo>
+        <pathCost>70</pathCost>
+        <affordances>
+            <li>GasBridgeable</li>
+        </affordances>
+        <edgeType>FadeRough</edgeType> <!--Isto está a causar o solar flare effect "water"-->
+		<!--<waterDepthShader>Map/WaterDepth</waterDepthShader>-->
+        <fertility>0</fertility>
+        <avoidWander>true</avoidWander>
+        <holdSnow>false</holdSnow>
+        <extraDeteriorationFactor>3</extraDeteriorationFactor>
+        <extraNonDraftedPerceivedPathCost>180</extraNonDraftedPerceivedPathCost>
+        <extraDraftedPerceivedPathCost>18</extraDraftedPerceivedPathCost>
+    </TerrainDef>
+	
+    <TerrainDef>
+        <defName>FeluciaSoil</defName>
+        <label>felucia floor</label>
+        <edgeType>FadeRough</edgeType>
+        <renderPrecedence>350</renderPrecedence>
+        <pathCost>4</pathCost>
+        <texturePath>Terrain/FeluciaSoil</texturePath>
+        <statBases>
+            <Beauty>3</Beauty>
+            <Cleanliness>-1</Cleanliness>
+        </statBases>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+            <li>Diggable</li>
+        </affordances>
+        <fertility>1</fertility>
+    </TerrainDef>
+	
+    <TerrainDef>
+        <defName>EndorSoil</defName>
+        <label>endor soil</label>
+        <edgeType>FadeRough</edgeType>
+        <renderPrecedence>350</renderPrecedence>
+        <pathCost>4</pathCost>
+        <texturePath>Terrain/EndorSoil</texturePath>
+        <statBases>
+            <Beauty>2</Beauty>
+            <Cleanliness>-1</Cleanliness>
+        </statBases>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+            <li>Diggable</li>
+        </affordances>
+        <fertility>1</fertility>
+    </TerrainDef>
+	
+    <TerrainDef>
+        <defName>NabooSoil</defName>
+        <label>naboo soil</label>
+        <edgeType>FadeRough</edgeType>
+        <renderPrecedence>350</renderPrecedence>
+        <pathCost>4</pathCost>
+        <texturePath>Terrain/NabooSoil</texturePath>
+        <statBases>
+            <Beauty>2</Beauty>
+            <Cleanliness>-1</Cleanliness>
+        </statBases>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+            <li>Diggable</li>
+        </affordances>
+        <fertility>1</fertility>
+    </TerrainDef>
+</Defs>

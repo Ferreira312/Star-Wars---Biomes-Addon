@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Bridge can be built here -->
+    <TerrainAffordanceDef>
+        <defName>GasBridgeable</defName>
+        <label>Gas</label>
+        <order>2500</order>
+    </TerrainAffordanceDef>
+    <TerrainDef>
+        <defName>BespinBridge</defName>
+        <label>Bespin city support</label>
+        <description>A flat floating surface that allows to build on top of bespin's gas.</description>
+        <texturePath>Terrain/BespinBridge</texturePath>
+        <uiIconPath>Terrain/BespinBridge_MenuIcon</uiIconPath>
+        <layerable>true</layerable>
+        <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+        </affordances>
+        <designationCategory>Structure</designationCategory>
+        <fertility>0</fertility>
+        <constructEffect>ConstructMetal</constructEffect>
+        <terrainAffordanceNeeded>GasBridgeable</terrainAffordanceNeeded>
+        <edgeType>Hard</edgeType>
+        <renderPrecedence>400</renderPrecedence>
+        <statBases>
+            <WorkToBuild>1500</WorkToBuild>
+            <Flammability>0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>12</Steel>
+        </costList>
+        <designationHotKey>Misc4</designationHotKey>
+        <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+        <destroyBuildingsOnDestroyed>true</destroyBuildingsOnDestroyed>
+        <destroyEffect>Bridge_Collapse</destroyEffect>
+        <destroyEffectWater>Bridge_CollapseWater</destroyEffectWater>
+    </TerrainDef>
+</Defs>

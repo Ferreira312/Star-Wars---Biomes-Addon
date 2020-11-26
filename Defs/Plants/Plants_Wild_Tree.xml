@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="PlantBase">
+        <defName>Plant_Fern</defName>
+        <label>fern</label>
+        <description>A soft, leafy plant that reproduces using spores.</description>
+        <statBases>
+            <MaxHitPoints>85</MaxHitPoints>
+            <Nutrition>0.25</Nutrition>
+        </statBases>
+        <pathCost>18</pathCost>
+        <graphicData>
+            <texPath>Plants/Ferns</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <hideAtSnowDepth>0.6</hideAtSnowDepth>
+        <ingestible />
+        <plant>
+            <fertilityMin>0.5</fertilityMin>
+            <fertilitySensitivity>0.7</fertilitySensitivity>
+            <growDays>3</growDays>
+            <dieIfLeafless>true</dieIfLeafless>
+            <harvestWork>60</harvestWork>
+            <maxMeshCount>9</maxMeshCount>
+            <visualSizeRange>0.7~0.85</visualSizeRange>
+            <topWindExposure>0.4</topWindExposure>
+        </plant>
+    </ThingDef>
+    <ThingDef ParentName="TreeBase">
+        <defName>Plant_TreeRedwood</defName>
+        <label>redwood</label>
+        <description>A huge, very slow growing tree. Its roots are shallow, and when it gets too large, it topples over.</description>
+        <graphicData>
+            <texPath>Plants/TreeRedwood</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.2, 0.2)</volume>
+                <offset>(0,0,-0.25)</offset>
+            </shadowData>
+        </graphicData>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <statBases>
+            <Beauty>15</Beauty>
+        </statBases>
+        <blockLight>true</blockLight>
+        <plant>
+            <sowTags />
+            <fertilityMin>0.8</fertilityMin>
+            <harvestedThingDef>WoodLog</harvestedThingDef>
+            <fertilitySensitivity>0.8</fertilitySensitivity>
+            <growDays>300</growDays>
+            <harvestWork>3000</harvestWork>
+            <harvestYield>225</harvestYield>
+            <wildClusterWeight>8</wildClusterWeight>
+            <wildClusterRadius>10</wildClusterRadius>
+            <visualSizeRange>8~12</visualSizeRange>
+        </plant>
+    </ThingDef>
+    <ThingDef ParentName="TreeBase">
+        <defName>Plant_TreeWroshyr</defName>
+        <label>wroshyr</label>
+        <description>The wroshyr tree is a species of giant, long-lived, cone-bearing trees found on the planet Kashyyyk.</description>
+        <graphicData>
+            <texPath>Plants/TreeWroshyr</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.2, 0.2)</volume>
+                <offset>(0,0,-0.25)</offset>
+            </shadowData>
+        </graphicData>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <statBases>
+            <Beauty>15</Beauty>
+        </statBases>
+        <blockLight>true</blockLight>
+        <plant>
+            <sowTags />
+            <fertilityMin>0.8</fertilityMin>
+            <harvestedThingDef>WoodLog</harvestedThingDef>
+            <fertilitySensitivity>0.8</fertilitySensitivity>
+            <growDays>300</growDays>
+            <harvestWork>3000</harvestWork>
+            <harvestYield>225</harvestYield>
+            <wildClusterWeight>8</wildClusterWeight>
+            <wildClusterRadius>10</wildClusterRadius>
+            <visualSizeRange>8~12</visualSizeRange>
+        </plant>
+    </ThingDef>
+</Defs>
